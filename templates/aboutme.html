@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="portfolio">
+        <meta name="author" content="Krzysztof Hodun">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{{url_for('static', filename='favicon.jpg')}}">
+        <link rel="stylesheet" href="https://use.typekit.net/mxt0jbh.css">
+        <link type="text/css" href="{{url_for('static', filename='style.css')}}" rel="stylesheet" >
+    <title>
+        About me
+    </title>
+    </head>
+    <body>
+        <div>
+            <p>
+                <div class="topMenu">
+                    <a href="{{ url_for('index') }}">
+                        Home
+                    </a>
+                </div>
+                <div class="topMenu">
+                    <a href="{{ url_for('aboutme') }}">
+                        About me
+                    </a>
+                </div>
+                <div class="topMenu">
+                    <a href="{{ url_for('gallery') }}">
+                        Gallery
+                    </a>
+                </div>
+                <div class="topMenu">
+                    <a href="{{ url_for('contact') }}">
+                        Contact
+                    </a>
+                </div>
+            </p>
+        </div>
+        <h1>
+            About me
+        </h1>
+        <p>
+            Hi, my name's Krzysztof. I'm an IT student at Banking College in Wrocław,</br>currently working at Nokia as a Python working student. I'll be writing and rewriting this page quite a lot probably. </br>
+            <s>Or forget about it idk</s></br>
+            Feel free to poke around!
+        </p>
+    </body>
+</html>

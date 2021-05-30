@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="portfolio">
+        <meta name="author" content="Krzysztof Hodun">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{{url_for('static', filename='favicon.jpg')}}">
+        <link rel="stylesheet" href="https://use.typekit.net/mxt0jbh.css">
+        <link type="text/css" href="{{url_for('static', filename='style.css')}}" rel="stylesheet" >
+        <title>
+            Home
+        </title>
+    </head>
+    <body>
+        <div class="topMenu">
+            <a href="{{ url_for('index') }}">
+                Home
+            </a>
+        </div>
+        <div class="topMenu">
+            <a href="{{ url_for('aboutme') }}">
+                About me
+            </a>
+        </div>
+        <div class="topMenu">
+            <a href="{{ url_for('gallery') }}">
+                Gallery
+            </a>
+        </div>
+        <div class="topMenu">
+            <a href="{{ url_for('contact') }}">
+                Contact
+            </a>
+        </div>
+    <h1>
+        Home
+    </h1>
+    <p>
+        Welcome home son
+    </p>
+    </body>
+</html>
